@@ -1,6 +1,8 @@
 <?php
 require('createPanier.php');
-
+if ($_SESSION['auth']){
+  header('location:index.php');
+}
 $title = "Login Page";
 $loginActive = "active";
 $loginActiveSpan = '<span class="sr-only">(current)</span>';
@@ -39,7 +41,7 @@ $reponse = $bdd->query($req);
             <form action="loginProc.php" method="POST">
               <!-- Heading -->
               <h3 class="dark-grey-text text-center">
-                <strong>Write to us:</strong>
+                <strong>𝓣𝓾𝓹𝓹𝓮𝓻𝓦𝓪𝓻𝓮 𝓑𝓪𝓻𝓭𝓸</strong>
               </h3>
               <hr>
               <div class="md-form">

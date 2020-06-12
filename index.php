@@ -129,7 +129,24 @@ if (isset($_GET['action'])) {
   <!--Main layout-->
 
   <?php require_once('includes/footer.php') ?>
+  <script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+  <script>
+    function readURL(input) {
+      if (input.files && input.files[0]) {
+        var reader = new FileReader();
 
+        reader.onload = function(e) {
+          $('#image').attr('src', e.target.result);
+        }
+
+        reader.readAsDataURL(input.files[0]); // convert to base64 string
+      }
+    }
+
+    $("#imageProd").change(function() {
+      readURL(this);
+    });
+  </script>
 
 </body>
 

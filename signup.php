@@ -1,5 +1,8 @@
 <?php
 require('createPanier.php');
+if ($_SESSION['auth']){
+  header('location:index.php');
+}
 $title = "Home Page";
 $signupActive = "active";
 $signupActiveSpan = '<span class="sr-only">(current)</span>';
@@ -31,10 +34,10 @@ $signupActiveSpan = '<span class="sr-only">(current)</span>';
           <div class="card-body">
 
             <!-- Form -->
-            <form name="">
+            <form action="signupproc.php" method="POST">
               <!-- Heading -->
               <h3 class="dark-grey-text text-center">
-                <strong>Write to us:</strong>
+                <strong>𝓣𝓾𝓹𝓹𝓮𝓻𝓦𝓪𝓻𝓮 𝓑𝓪𝓻𝓭𝓸</strong>
               </h3>
               <hr>
               <div class="md-form">

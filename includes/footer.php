@@ -41,7 +41,7 @@
     <!--Copyright-->
     <div class="footer-copyright py-3 black-text">
       © 2020 Copyright:
-      <a href="https://www.google.fr/search?q=gargouri" target="_blank" class=" black-text"> gargouri-lfsi2.com </a>
+      <a href="https://www.google.fr/search?q=gargouri" target="_blank" class=" black-text"> gargouri-troudi-lfsi2.com </a>
     </div>
     <!--/.Copyright-->
 

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/f7f6aaad-3177-41a2-8f09-17cd8454a420/resourceGroups/twbardo/providers/Microsoft.Web/sites/twbardo",
+    "appService.deploySubpath": ""
+}
