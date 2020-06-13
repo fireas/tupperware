@@ -11,6 +11,14 @@
   <link href="assets/css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="assets/css/style.min.css" rel="stylesheet">
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+  
+  
+  
   <style type="text/css">
     @media (min-width: 800px) and (max-width: 850px) {
       .navbar:not(.top-nav-collapse) {

@@ -18,7 +18,7 @@
             <!-- <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i> -->
 
           </div>
-          <table class="table table-bordered">
+          <table class="table table-bordered" id="dataTable">
             <thead class="alert alert-primary">
               <tr>
                 <th scope="col">#</th>
@@ -87,11 +87,11 @@
 
               <div class="col-6 col-md-4">
                 <div class="text-left ">
-                  <label for="name">Name:</label>
+                  <label for="name">Nom:</label>
                   <input required class="form-control form-control-sm" type="text" name="name" placeholder="Nom du produit">
-                  <label for="price">Price:</label>
+                  <label for="price">Prix:</label>
                   <input required class="form-control form-control-sm" type="text" name="price" placeholder="Prix du produit (en DT)">
-                  <label for="quan">Quantity:</label>
+                  <label for="quan">Quantité:</label>
                   <input required class="form-control form-control-sm" type="text" name="quan" placeholder="Quantitée">
                 </div>
               </div>
@@ -143,7 +143,7 @@
           <li class="nav-item <?php if (isset($homeActive)) {
                                 echo $homeActive;
                               } ?>">
-            <a class="nav-link" href="index.php">Home<?php if (isset($homeActiveSpan)) {
+            <a class="nav-link" href="index.php">Accueil<?php if (isset($homeActiveSpan)) {
                                                         echo $homeActiveSpan;
                                                       } ?>
             </a>
