@@ -8,7 +8,7 @@ $admin = false;
 foreach ($users as $user){
     if ($_POST['username']==$user->login && $_POST['password']==$user->password){
         $a = true;
-        if ($user->password){
+        if ($user->role == 'admin'){
             $admin = true;
         }
     }
